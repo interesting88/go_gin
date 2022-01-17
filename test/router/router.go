@@ -20,5 +20,5 @@ func InitRouter(r *gin.Engine) {
 		}
 		res["sn"] = common.CreateSign(params)
 		res["ts"] = ts
-		common.RetJson("hello word", "", res, c)
+		common.RetJson("hello word")
 	}
