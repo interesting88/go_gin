@@ -14,6 +14,6 @@ func main(){
 	engine.Run(config.PORT)
 }
 func init()  {
-	fmt.Println("hello word")
+	fmt.Println("hello word", "", res, c)
 
 }
